@@ -2,9 +2,8 @@
 <body>
 <h1>Shopify value</h1>
 
-The value of the cookie set was <strong id="text"></strong>.  The cookie has been deleted.
-<input type="text" id="input" />
-<button onclick="setCookie()">Save cookie</button>
+<p>The value of the cookie set was <strong id="text"></strong>.  The cookie has been deleted.</p>
+<a href="//jb-microsite.theshoppad.net">Back to microsite</a>
 <script>
   $('#text').text($.cookie('jb_token'));
   $.cookie('jb_token', '', { expires : -1000, domain: '.theshoppad.net' });
